@@ -17,7 +17,7 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
 else:
-    os.chdir(r"C:\Users\user\Desktop\aa")
+    os.chdir(r"Dashboard1.py")
     df = pd.read_csv("Superstore1.csv", encoding = "ISO-8859-1")
     df = pd.read_csv("Superstore2.csv", encoding = "ISO-8859-2")
    # st.set_page_config(layout="wide")
